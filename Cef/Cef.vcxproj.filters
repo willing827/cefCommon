@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="app">
+      <UniqueIdentifier>{acf09a51-dace-456d-b32a-10d6fe1db37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handler">
+      <UniqueIdentifier>{cb3f9c0d-0b68-4d5c-ba64-0aa5ddfca5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{8c31f0c8-675f-448f-aefa-a95466b9c9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{b7992480-c25c-4635-be0f-328e4d5e5990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control">
+      <UniqueIdentifier>{c050ab97-8f3b-4d44-883f-0945e54bcdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mouse_hook">
+      <UniqueIdentifier>{e8e86688-63ed-4047-9347-00ecff9ee3af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app\cef_js_bridge.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="handler\browser_handler.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\cef_manager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="control\cef_control_base.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\cef_control_base_ui.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\cef_osr_window.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse_hook\cef_mouse_hook.cpp">
+      <Filter>mouse_hook</Filter>
+    </ClCompile>
+    <ClCompile Include="util\memory_dc.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\cef_js_bridge.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\client_app.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="handler\browser_handler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\cef_manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="control\cef_control_base.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\cef_control_event.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\cef_osr_window.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse_hook\cef_mouse_hook.h">
+      <Filter>mouse_hook</Filter>
+    </ClInclude>
+    <ClInclude Include="control\cef_child_wnd.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\cef_popup_wnd.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="util\memory_dc.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

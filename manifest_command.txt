@@ -1,0 +1,9 @@
+setlocal
+mt.exe -nologo -manifest "$(ProjectDir)../cef_bundle/cefclient.exe.manifest" "$(ProjectDir)../cef_bundle/compatibility.manifest" -outputresource:"$(OutDir)$(TargetFilename)";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

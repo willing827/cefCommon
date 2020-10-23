@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="cef_js_bridge.h" />
+    <ClInclude Include="client_render_app.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="ipc_string_define.h" />
+    <ClInclude Include="js_handler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cef_js_bridge.cpp" />
+    <ClCompile Include="client_render_app.cpp" />
+    <ClCompile Include="js_handler.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>

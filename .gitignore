@@ -1,3 +1,12 @@
+# directory
+.vs/
+obj/
+bin/
+ipch/
+
+# project files
+
+
 # Prerequisites
 *.d
 
